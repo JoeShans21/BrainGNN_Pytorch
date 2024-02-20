@@ -27,7 +27,7 @@ import sys
 
 # Input data variables
 code_folder = os.getcwd()
-root_folder = code_folder + '/data/'
+root_folder = '/content/BrainGNN_Pytorch/data/'
 print(root_folder)
 data_folder = os.path.join(root_folder, 'ABIDE_pcp/cpac/filt_noglobal/')
 if not os.path.exists(data_folder):
